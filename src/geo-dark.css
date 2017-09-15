@@ -1,0 +1,8 @@
+body {background-color: #3e3e3e}
+.navbar-default {background-color: rgba(0,0,0,0.7);color:#eee}
+.jumbotron {background-color: rgba(0,0,0,0.7);color:#eee}
+input {background-color: rgba(255,255,255,0.1);color:#eee}
+.btn-default {background-color: rgba(255,255,255,0.1);color:#eee}
+.btn-default:hover, .btn-default:active, .btn-default:focus, .btn-default:visited {background-color: rgba(255,255,255,0.05) !important;color:#eee !important}
+a, a:hover {color:white;text-decoration:none;}
+hr {border-color: rgba(255,255,255,.1) !important}

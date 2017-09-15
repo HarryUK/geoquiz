@@ -1,0 +1,83 @@
+body {
+	padding-top: 300px;
+}
+.navbar-default {
+	border-width: 0px;
+	border-radius: 0px;
+	padding: 50px 0px 50px 0px;
+	-webkit-backdrop-filter:blur(5px);
+	backdrop-filter:blur(5px);
+}
+@media only screen and (max-width: 600px) {
+	body {
+		padding-top:200px;
+	}
+	.navbar-default {
+		padding: 10px 0px 10px 0px;
+	}
+}
+.jumbotron {
+	padding: 50px 0px 50px 0px;
+}
+input {
+	border-width: 0px;
+	padding: 10px 15px 10px 15px;
+	border-radius: 5px;
+}
+#counter1,
+#counter2,
+#counter3,
+#counter4,
+#counter5  {
+	padding-top: 50px;
+}
+.btn-default {
+	border-radius: 0px;
+	border-width: 0px;
+	padding:10px 30px 10px 30px;
+	border-radius: 5px;
+}
+*:focus {
+	outline: none !important;
+	border:0px !important;
+}
+@keyframes fadeInAnim {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-webkit-keyframes fadeInAnim {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.fadeInCSS {
+	-webkit-animation: fadeInAnim 3s ease;
+	animation: fadeInAnim 3s ease;
+}
+@keyframes fadeOutAnim {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@-webkit-keyframes fadeOutAnim {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+.fadeOutCSS {
+	-webkit-animation: fadeOutAnim 3s ease;
+	animation: fadeOutAnim 3s ease;
+}
