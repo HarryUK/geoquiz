@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GeoQuiz</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="icon" href="src/icon.png">
+	<link rel="stylesheet" href="src/bootstrap.min.css">
+	<link rel="stylesheet" href="src/geo-light.css">
+	<link rel="stylesheet" href="src/geo.css">
+	<script src="src/scrollreveal.min.js"></script>
+	<script src="src/jquery-3.2.1.min.js"></script>
+	<script src="src/geo.js"></script>
+<body onload="">
+	<div class="navbar navbar-fixed-top navbar-default text-center">
+		<h1>HarryUK</h1>
+		<p>Based on: <a href="https://www.cambridge.org/gcse-computing/programming-projects/quiz-time/">Programming Activity 3: Quiz Time</a></p><br>
+		<a class="btn btn-default" href="dark-mode.html">Dark Mode</a>
+	</div>
+	<div class="container">
+		<div class="jumbotron">
+			<h1 class="text-center">GeoQuiz</h1>
+			<p class="text-center">A Geography Quiz</p>
+		</div>
+		<div class="jumbotron">
+			<form action="" id="form1" onsubmit="brazil();event.preventDefault();return false">
+				<h3>What is the capital of Brazil?</h3>
+				<input type="text" name="answer1" autocomplete="off" />
+				<button class="btn btn-default" id="sumbit1">Submit</button>
+				<p></p>
+			</form>
+			<p id="counter1"></p>
+		</div>
+		<div class="jumbotron">
+			<form action="" id="form2" onsubmit="australia();event.preventDefault();return false">
+				<h3>What is the capital of Australia?</h3>
+				<input type="" name="answer2" autocomplete="off"/>
+				<button class="btn btn-default" id="sumbit2">Submit</button>
+			</form>
+			<p id ="counter2"></p>
+		</div>
+		<div class="jumbotron">
+			<form action="" id="form3" onsubmit="america();event.preventDefault();return false">
+				<h3>What is the capital of America?</h3>
+				<input type="" name="answer3" autocomplete="off"/>
+				<button class="btn btn-default" id="sumbit3">Submit</button>
+			</form>
+			<p id ="counter3"></p>
+		</div>
+		<div class="jumbotron">
+			<form action="" id="form4" onsubmit="unitedkingdom();event.preventDefault();return false">
+				<h3>What is the capital of The United Kingdom?</h3>
+				<input type="" name="answer4" autocomplete="off"/>
+				<button class="btn btn-default" id="sumbit4">Submit</button>
+			</form>
+			<p id ="counter4"></p>
+		</div>
+		<div class="jumbotron">
+			<form action="" id="form5" onsubmit="kenya();event.preventDefault();return false">
+				<h3>What is the capital of Kenya?</h3>
+				<input type="" name="answer5" autocomplete="off"/>
+				<button class="btn btn-default" id="sumbit5">Submit</button>
+			</form>
+			<p id ="counter5"></p>
+		</div> 
+		<div id="end" class="jumbotron">
+			<h1>Total Score:</h1>
+			<p id="score">No Points!</p>
+		</div>
+	</div>
+</body>
+</html>
