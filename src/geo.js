@@ -10,7 +10,7 @@
 	function brazil() {
 		counter1++;
 	    var answer = document.forms["form1"]["answer1"].value;
-	    if (answer.toLowerCase() != "braislia") {
+	    if (answer.toLowerCase() != "brasilia") {
 			document.getElementById("counter1").innerHTML = "Wrong";
 	    	return;
 	    }
