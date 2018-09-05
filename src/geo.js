@@ -14,11 +14,11 @@
 			document.getElementById("counter1").innerHTML = "Wrong";
 	    	return;
 	    }
-	    else if(counter1 == 1) {
+	    else if(counter1 === 1) {
 	    	document.getElementById("counter1").innerHTML = "Correct First time";
 	    	points += 3;
 	    }
-	   	else if(counter1 == 2) {
+	   	else if(counter1 === 2) {
 	    	document.getElementById("counter1").innerHTML = "Correct Second Time";
 	    	points += 2;
 	    }
@@ -38,11 +38,11 @@
 	    	document.getElementById("counter2").innerHTML = "Wrong";
 	    	return;
 	    }
-	    else if(counter2 == 1) {
+	    else if(counter2 === 1) {
 	    	document.getElementById("counter2").innerHTML = "Correct First time";
 	    	points += 3;
 	    }
-	   	else if(counter2 == 2) {
+	   	else if(counter2 === 2) {
 	    	document.getElementById("counter2").innerHTML = "Correct Second Time";
 	    	points += 2;
 	    }
@@ -62,11 +62,11 @@
 	    	document.getElementById("counter3").innerHTML = "Wrong";
 	    	return;
 	    }
-	    else if(counter3 == 1) {
+	    else if(counter3 === 1) {
 	    	document.getElementById("counter3").innerHTML = "Correct First time";
 	    	points += 3;
 	    }
-	   	else if(counter3 == 2) {
+	   	else if(counter3 === 2) {
 	    	document.getElementById("counter3").innerHTML = "Correct Second Time";
 	    	points += 2;
 	    }
@@ -86,11 +86,11 @@
 	    	document.getElementById("counter4").innerHTML = "Wrong";
 	    	return;
 	    }
-	    else if(counter4 == 1) {
+	    else if(counter4 === 1) {
 	    	document.getElementById("counter4").innerHTML = "Correct First time";
 	    	points += 3;
 	    }
-	   	else if(counter4 == 2) {
+	   	else if(counter4 === 2) {
 	    	document.getElementById("counter4").innerHTML = "Correct Second Time";
 	    	points += 2;
 	    }
@@ -110,11 +110,11 @@
 	    	document.getElementById("counter5").innerHTML = "Wrong";
 	    	return;
 	    }
-	    else if(counter5 == 1) {
+	    else if(counter5 === 1) {
 	    	document.getElementById("counter5").innerHTML = "Correct First time";
 	    	points += 3;
 	    }
-	   	else if(counter5 == 2) {
+	   	else if(counter5 === 2) {
 	    	document.getElementById("counter5").innerHTML = "Correct Second Time";
 	    	points += 2;
 	    }
