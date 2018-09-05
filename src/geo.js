@@ -127,3 +127,6 @@
 	    $("#counter5").css("padding-bottom", "40px")
 	    document.getElementById("score").innerHTML = points;
 	}
+	if(counter1 > 2 && counter2 > 2 && counter3 > 2 && counter4 > 2 && counter5 > 5) {
+		alert('You finished!, Check your final score at the bottom of the page');
+	}
